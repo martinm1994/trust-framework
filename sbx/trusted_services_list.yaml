@@ -4,7 +4,7 @@ clients:
     redirectUris: ["https://dome-marketplace-sbx.org/auth/vc/callback"]
     scopes: ["openid_learcredential"]
     clientAuthenticationMethods: ["client_secret_jwt"]
-    authorizationGrantTypes: ["authorization_code"]
+    authorizationGrantTypes: ["authorization_code", "refresh_token"]
     postLogoutRedirectUris: ["https://dome-marketplace-sbx.org/"]
     requireAuthorizationConsent: false
     requireProofKey: false
